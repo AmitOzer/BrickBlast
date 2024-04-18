@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainbackgound"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Nickname!"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:textSize="42sp"/>
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tv_games_played"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Games played: 0"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/selectlevels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Levels"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"/> <!-- Adjusted margin -->
+
+</LinearLayout>
